@@ -1,0 +1,4 @@
+eval $(docker-machine env Char)
+export cmd=`docker swarm join-token worker | grep "docker swarm"`
+eval $(docker-machine env Aiur)
+`echo $cmd`
