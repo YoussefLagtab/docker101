@@ -1,0 +1,32 @@
+Sending build context to Docker daemon  10.75kB
+Step 1/17 : FROM ubuntu
+latest: Pulling from library/ubuntu
+7ddbc47eeb70: Pulling fs layer
+c1bbdc448b72: Pulling fs layer
+8c3b70e39044: Pulling fs layer
+45d437916d57: Pulling fs layer
+45d437916d57: Waiting
+8c3b70e39044: Verifying Checksum
+8c3b70e39044: Download complete
+c1bbdc448b72: Verifying Checksum
+c1bbdc448b72: Download complete
+45d437916d57: Verifying Checksum
+45d437916d57: Download complete
+7ddbc47eeb70: Verifying Checksum
+7ddbc47eeb70: Download complete
+7ddbc47eeb70: Pull complete
+c1bbdc448b72: Pull complete
+8c3b70e39044: Pull complete
+45d437916d57: Pull complete
+Digest: sha256:6e9f67fa63b0323e9a1e587fd71c561ba48a034504fb804fd26fd8800039835d
+Status: Downloaded newer image for ubuntu:latest
+ ---> 775349758637
+Step 2/17 : RUN apt update
+ ---> Running in eff0a07f660d
+[91m
+[0m[91mWARNING: [0m[91mapt[0m[91m [0m[91mdoes not have a stable CLI interface. [0m[91mUse with caution in scripts.[0m[91m
+[0m[91m
+[0mGet:1 http://archive.ubuntu.com/ubuntu bionic InRelease [242 kB]
+Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:4 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [5944 B]
